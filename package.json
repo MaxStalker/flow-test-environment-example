@@ -1,0 +1,19 @@
+{
+  "name": "flow-environment-test-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.10",
+    "esbuild-jest": "^0.5.0",
+    "flow-test-environment": "D:\\dev\\flow-test-environment"
+  },
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
+}

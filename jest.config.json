@@ -1,0 +1,11 @@
+{
+  "transform": {
+    "^.+\\.test.js?$": "esbuild-jest"
+  },
+  "globalSetup": "flow-test-environment/setup",
+  "globalTeardown": "flow-test-environment/teardown",
+  "testEnvironment": "flow-test-environment",
+  "coveragePathIgnorePatterns": ["/node_modules/"],
+  "verbose": true,
+  "testTimeout": 5000
+}
