@@ -9,11 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^29.1.2",
     "esbuild": "^0.15.10",
-    "esbuild-jest": "^0.5.0",
-    "flow-test-environment": "D:\\dev\\flow-test-environment"
+    "esbuild-jest": "^0.5.0"
   },
   "dependencies": {
-    "jest": "^29.1.2"
+    "jest": "^29.1.2",
+    "flow-test-environment": "D:\\dev\\flow-test-environment"
   }
 }
