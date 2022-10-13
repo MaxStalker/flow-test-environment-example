@@ -1,4 +1,6 @@
 {
+  "globalSetup": "flow-test-environment/setup",
+  "globalTeardown": "flow-test-environment/teardown",
   "testEnvironment": "flow-test-environment",
   "coveragePathIgnorePatterns": ["/node_modules/"],
   "verbose": true,
