@@ -2,6 +2,9 @@
   "globalSetup": "flow-test-environment/setup",
   "globalTeardown": "flow-test-environment/teardown",
   "testEnvironment": "flow-test-environment",
+  "testEnvironmentOptions": {
+    "emulator": "D:\\dev\\jest-environment-test\\bin\\emulator.exe"
+  },
   "coveragePathIgnorePatterns": ["/node_modules/"],
   "verbose": true,
   "testTimeout": 5000
